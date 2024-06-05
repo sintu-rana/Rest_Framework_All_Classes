@@ -19,4 +19,6 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('function_based_views/',include('function_based_views.urls')),
+    path('generic_views/',include('generic_views.urls')),
+    
 ]
