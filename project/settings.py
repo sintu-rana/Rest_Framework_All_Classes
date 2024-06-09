@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'function_based_views',
     'rest_framework',
     'generic_views',
+    'viewsets',
 ]
 
 MIDDLEWARE = [
