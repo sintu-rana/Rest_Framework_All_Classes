@@ -21,7 +21,12 @@ urlpatterns = [
     path('function_based_views/',include('function_based_views.urls')),
     path('generic_views/',include('generic_views.urls')),
     path('viewsets/',include('viewsets.urls')),
+    path('modelviewset/',include('modelviewset.urls')),
+    path('readonlymodelviewSet/',include('readonlymodelviewSet.urls')),
+    path('mixin_api/',include('mixin_api.urls')),
+    path('APIview/',include('APIview.urls')),
     
     
     
+     
 ]

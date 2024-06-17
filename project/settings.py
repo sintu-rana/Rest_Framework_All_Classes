@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'generic_views',
     'viewsets',
+    'modelviewset',
+    'readonlymodelviewSet',
+    'mixin_api',
+    'APIview',
 ]
 
 MIDDLEWARE = [

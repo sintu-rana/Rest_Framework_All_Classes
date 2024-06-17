@@ -8,6 +8,7 @@
 ### 4.modelviewset---
 ### 5.readonlymodelviewSet---
 ### 6.mixin_api
+### 7.APIview
 
 
 ## 1.Function-Based Views (FBVs):-
@@ -60,4 +61,6 @@ Mixins are small reusable components that can be combined to create class-based 
 #### ListModelMixin
 #### RetrieveModelMixin
 
---------------------------------
+## 5.APIview
+
+In Django REST Framework (DRF), an API View is a class-based view that provides the core functionality for handling HTTP requests in your API. API Views can be customized to handle different HTTP methods (GET, POST, PUT, DELETE) and can be used to create more complex views with more specific behaviors. The base class for all class-based views in DRF is APIView.
